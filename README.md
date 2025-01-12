@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in PHP related to the use of `unset()` within a `foreach` loop.  Modifying an array during iteration can lead to unexpected results due to how PHP handles array indexing. The `bug.php` file showcases the incorrect approach, while `bugSolution.php` provides the corrected version.
